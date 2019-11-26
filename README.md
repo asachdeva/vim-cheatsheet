@@ -15,10 +15,10 @@
 
 ## Using NerdCommenter
 Add the below line in your init.vim<br>
-Plug 'scrooloose/nerdcommenter'                                   " code commenter<br>
+```Plug 'scrooloose/nerdcommenter'                                   " code commenter<br>```
 
 then in your init.vim -- add the below section<br>
-" Commenting blocks of code. <br>
+```" Commenting blocks of code. <br>
 autocmd FileType c,cpp,java,scala let b:comment_leader = '// ' <br>
 autocmd FileType sh,ruby,python   let b:comment_leader = '# ' <br>
 autocmd FileType conf,fstab       let b:comment_leader = '# ' <br>
@@ -27,6 +27,7 @@ autocmd FileType mail             let b:comment_leader = '> '<br>
 autocmd FileType vim              let b:comment_leader = '" '<br>
 noremap <silent> ,cc :<C-B>silent <C-E>s/^/<C-R>=escape(b:comment_leader,'/')<CR>/<CR>:nohlsearch<CR><br>
 noremap <silent> ,cu :<C-B>silent <C-E>s/^\V<C-R>=escape(b:comment_leader,'/')<CR>//e<CR>:nohlsearch<CR><br>
+```
 
 Now you can type ,cc to comment a line and ,cu to uncomment a line (works both in normal and visual mode).<br>
 so if you want to comment next 5 lines 5,cc<br>
