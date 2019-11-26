@@ -1,14 +1,17 @@
 # VIM CheatSheet
 
 ## Simple movements in a file
-0 	move to beginning of the current line<br>
-$ 	move to end of line<br>
-H 	move to the top of the current window (high)<br>
-M 	move to the middle of the current window (middle)<br>
-L 	move to the bottom line of the current window (low)<br>
-1G 	move to the first line of the file<br>
-20G 	move to the 20th line of the file<br>
-G 	move to the last line of the file<br>
+|Command  | Description                                             |
+| ------- | -------------------------------------------------       |
+| 0       | move to beginning of the current line                   |
+| $ 	    | move to end of line                                     |
+| H 	    | move to the top of the current window (high)            |
+| M 	    | move to the middle of the current window (middle)       |
+| L 	    | move to the bottom line of the current window (low)     |
+| 1G 	    | move to the first line of the file                      |
+| 20G 	  | move to the 20th line of the file                       |
+| G 	    | move to the last line of the file                       |
+
 
 ## Using NerdCommenter
 Add the below line in your init.vim<br>
