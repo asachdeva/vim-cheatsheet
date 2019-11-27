@@ -6,12 +6,21 @@
 | 0       | move to beginning of the current line                   |
 | $ 	    | move to end of line                                     |
 | H 	    | move to the top of the current window (high)            |
-| M 	    | move to the middle of the current window (middle)       |
-| L 	    | move to the bottom line of the current window (low)     |
-| 1G 	    | move to the first line of the file                      |
-| 20G 	  | move to the 20th line of the file                       |
-| G 	    | move to the last line of the file                       |
+#| M 	    | move to the middle of the current window (middle)       |
+#| L 	    | move to the bottom line of the current window (low)     |
+#| 1G 	    | move to the first line of the file                      |
+#| 20G 	  | move to the 20th line of the file                       |
+#| G 	    | move to the last line of the file                       |#
 
+## Copy and Paste
+
+#    Position the cursor where you want to begin cutting.
+#    Press v to select characters (or uppercase V to select whole lines).
+#    Move the cursor to the end of what you want to cut.
+#    Press d to cut (or y to copy).
+#    Move to where you would like to paste.
+#    Press P to paste before the cursor, or p to paste after.
+## Copy and Paste
 
 ## Using NerdCommenter
 Add the below line in your init.vim<br>
