@@ -22,6 +22,9 @@
 5. Move to where you would like to paste.
 6. Press P to paste before the cursor, or p to paste after.
 
+## Line Numbers
+To Display :set nu
+To hide :set nonu
 ## Using NerdCommenter
 Add the below line in your init.vim<br>
 ```Plug 'scrooloose/nerdcommenter'                                   " code commenter<br>```
