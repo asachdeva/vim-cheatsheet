@@ -13,6 +13,7 @@
 | 1G 	    | move to the first line of the file                      |
 | 20G 	  | move to the 20th line of the file                       |
 | G 	    | move to the last line of the file                       |
+|:23      | go to line number 23                                    |
 
 ## Copy and Paste
 1. Position the cursor where you want to begin cutting.
