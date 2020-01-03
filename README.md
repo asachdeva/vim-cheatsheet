@@ -23,6 +23,9 @@
 5. Move to where you would like to paste.
 6. Press P to paste before the cursor, or p to paste after.
 
+## Delete Multiple Lines
+In Normal mode enter 5dd to yank the next 5 lines from where cursor is
+
 ## Line Numbers
 To Display :set nu
 To hide :set nonu
