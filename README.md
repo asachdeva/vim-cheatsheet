@@ -23,6 +23,10 @@
 5. Move to where you would like to paste.
 6. Press P to paste before the cursor, or p to paste after.
 
+## Do and Undo
+1. To undo last command u
+2. To redo last command again C-R (Ctrl- Shift -r)
+
 ## Delete Multiple Lines
 In Normal mode enter 5dd to yank the next 5 lines from where cursor is
 
